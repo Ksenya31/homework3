@@ -51,7 +51,7 @@ public class CartTest {
         driver.findElement(By.className("button")).click();
 
         String text = driver.findElement(By.cssSelector("[data-test-id=name].input_invalid .input__sub")).getText();
-        assertEquals("Поле обязательно для заполнения", text.trim());
+        assertEquals("Поле обязательно для заполнени", text.trim());
     }
 
     @Test
